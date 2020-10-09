@@ -23,7 +23,7 @@ namespace DB.Data
                 cs.HasNoKey();
             }));
         }
-
+        //commit
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=GIBDD");
